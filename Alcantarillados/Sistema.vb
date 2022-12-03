@@ -14,6 +14,11 @@ Public Class Sistema
     Dim tipoAbonado As Integer
     Dim cancelado As Boolean
 
+    Dim Historia As New List(Of Historia)
+    Dim Abonados As New List(Of Factura)
+
+
+
     Private Sub Label32_Click(sender As Object, e As EventArgs) Handles Label32.Click
 
     End Sub
@@ -89,8 +94,12 @@ Public Class Sistema
             datos.Add("Tarifa", lb_tarifaDetalles.Text)
             datos.Add("Total", lb_totalDetalles.Text)
 
+
+
             Dim reportes As New Reportes
             reportes.datos = datos
+            reportes.Abona = Abonados
+            reportes.Histo = Historia
             reportes.Show()
 
         Else
@@ -100,6 +109,8 @@ Public Class Sistema
 
 
     End Sub
+
+
 
     'cargarmos la lista de documento
     Private Sub cargarListaDocumento(ByVal id As String)
@@ -315,6 +326,15 @@ Public Class Sistema
             lbx_historioDetalles.DataSource = datos.Tables(0)
             lbx_historioDetalles.DisplayMember = "MF"
 
+
+            For i As Integer = 0 To datos.Tables(0).Rows.Count - 1
+
+                Dim histori As New Historia
+                histori.Fecha = datos.Tables(0).Rows(i)(0)
+
+                Historia.Add(histori)
+            Next
+
         End If
 
     End Sub
@@ -332,6 +352,22 @@ Public Class Sistema
             lbx_tablaConsumo.Items.Add(" 31 a 60 = " & datos("tres") & "")
             lbx_tablaConsumo.Items.Add(" Más de 61 = " & datos("cuatro") & "")
 
+            Dim abona As Factura
+            abona = New Factura
+            abona.Abonados = " 1 a 10  =   ¢ " & datos("uno") & ""
+            Abonados.Add(abona)
+
+            abona = New Factura
+            abona.Abonados = " 11 a 30  =  ¢ " & datos("dos") & ""
+            Abonados.Add(abona)
+
+            abona = New Factura
+            abona.Abonados = " 31 a 60  =  ¢ " & datos("tres") & ""
+            Abonados.Add(abona)
+
+            abona = New Factura
+            abona.Abonados = " Más de 61 = ¢ " & datos("cuatro") & ""
+            Abonados.Add(abona)
 
         End If
 

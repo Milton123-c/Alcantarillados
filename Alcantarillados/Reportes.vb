@@ -1,11 +1,26 @@
 ﻿Imports CrystalDecisions.ReportAppServer
 Imports Microsoft.Reporting.WinForms
 Imports Microsoft.ReportingServices
+Imports System.Web
 Public Class Reportes
     Public datos As New Dictionary(Of String, String)
 
+    Public Histo As New List(Of Historia)
+    Public Abona As New List(Of Factura)
+
+    Dim hist As New Historia
+    Dim abo As New Factura
 
     Private Sub Reportes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+
+    End Sub
+
+    Private Sub Cargar()
+
+        hist.Cargar = Histo
+
+        abo.Cargar = Abona
 
 
     End Sub
@@ -13,8 +28,7 @@ Public Class Reportes
     Private Sub ReportViewer1_Load(sender As Object, e As EventArgs) Handles ReportViewer1.Load
 
         Try
-
-
+            Cargar()
 
             Dim parameter As New List(Of ReportParameter)
             parameter.Add(New ReportParameter("Nombre", datos("Nombre")))
@@ -45,7 +59,33 @@ Public Class Reportes
             parameter.Add(New ReportParameter("Tarifa", datos("Tarifa")))
             parameter.Add(New ReportParameter("Total", datos("Total")))
 
+
+            Me.ReportViewer1.LocalReport.DataSources.Clear()
+
+            'Dim x As New ReportDataSource
+            'x.Name = "Historia"
+            ' x.Value = invoice.Detail
+
+            'Me.ReportViewer1.LocalReport.DataSources.Add(x)
+
+
+            Dim a As New ReportDataSource
+            a.Name = "Historia"
+
+            a.Value = hist.Cargar
+
+
+            Dim b As New ReportDataSource
+
+            b.Name = "Abonados"
+            b.Value = abo.Cargar
+
+            Me.ReportViewer1.LocalReport.DataSources.Add(a)
+            Me.ReportViewer1.LocalReport.DataSources.Add(b)
+
+            Me.ReportViewer1.LocalReport.ReportPath = "C:\Users\Milton David Gago Me\source\repos\Alcantarillados\Alcantarillados\Informe1.rdlc"
             Me.ReportViewer1.LocalReport.SetParameters(parameter)
+
             Me.ReportViewer1.RefreshReport()
 
 
@@ -55,4 +95,5 @@ Public Class Reportes
         End Try
 
     End Sub
+
 End Class

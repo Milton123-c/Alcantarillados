@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Sistema
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -168,7 +168,7 @@ Partial Class Sistema
         Me.TabPage1.Controls.Add(Me.TBN_BUSCAR)
         Me.TabPage1.Controls.Add(Me.TB_LLAVE)
         Me.TabPage1.Controls.Add(Me.Label1)
-        Me.TabPage1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.TabPage1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline)
         Me.TabPage1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.TabPage1.Location = New System.Drawing.Point(4, 29)
         Me.TabPage1.Margin = New System.Windows.Forms.Padding(4)
@@ -200,7 +200,7 @@ Partial Class Sistema
         Me.LB_ESTADO.AutoSize = True
         Me.LB_ESTADO.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.LB_ESTADO.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.LB_ESTADO.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.LB_ESTADO.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline)
         Me.LB_ESTADO.ForeColor = System.Drawing.Color.White
         Me.LB_ESTADO.Location = New System.Drawing.Point(924, 5)
         Me.LB_ESTADO.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -255,7 +255,7 @@ Partial Class Sistema
         'LB_TOTAL
         '
         Me.LB_TOTAL.AutoSize = True
-        Me.LB_TOTAL.Font = New System.Drawing.Font("Tahoma", 21.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.LB_TOTAL.Font = New System.Drawing.Font("Tahoma", 21.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
         Me.LB_TOTAL.ForeColor = System.Drawing.Color.PaleGreen
         Me.LB_TOTAL.Location = New System.Drawing.Point(125, 31)
         Me.LB_TOTAL.Name = "LB_TOTAL"
@@ -266,7 +266,7 @@ Partial Class Sistema
         'Label36
         '
         Me.Label36.AutoSize = True
-        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label36.Location = New System.Drawing.Point(15, 36)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(59, 20)
@@ -276,7 +276,7 @@ Partial Class Sistema
         'LB_MONTO_MT3
         '
         Me.LB_MONTO_MT3.AutoSize = True
-        Me.LB_MONTO_MT3.Font = New System.Drawing.Font("Tahoma", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.LB_MONTO_MT3.Font = New System.Drawing.Font("Tahoma", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
         Me.LB_MONTO_MT3.ForeColor = System.Drawing.Color.Navy
         Me.LB_MONTO_MT3.Location = New System.Drawing.Point(181, 18)
         Me.LB_MONTO_MT3.Name = "LB_MONTO_MT3"
@@ -287,7 +287,7 @@ Partial Class Sistema
         'Label53
         '
         Me.Label53.AutoSize = True
-        Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label53.Location = New System.Drawing.Point(15, 21)
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(101, 20)
@@ -324,7 +324,7 @@ Partial Class Sistema
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Underline)
         Me.Label33.ForeColor = System.Drawing.Color.Navy
         Me.Label33.Location = New System.Drawing.Point(255, 282)
         Me.Label33.Name = "Label33"
@@ -335,7 +335,7 @@ Partial Class Sistema
         'LB_HIDRANTES
         '
         Me.LB_HIDRANTES.AutoSize = True
-        Me.LB_HIDRANTES.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.LB_HIDRANTES.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Underline)
         Me.LB_HIDRANTES.ForeColor = System.Drawing.Color.Navy
         Me.LB_HIDRANTES.Location = New System.Drawing.Point(184, 286)
         Me.LB_HIDRANTES.Name = "LB_HIDRANTES"
@@ -346,7 +346,7 @@ Partial Class Sistema
         'Label35
         '
         Me.Label35.AutoSize = True
-        Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label35.Location = New System.Drawing.Point(20, 286)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(103, 20)
@@ -356,7 +356,7 @@ Partial Class Sistema
         'Label30
         '
         Me.Label30.AutoSize = True
-        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Underline)
         Me.Label30.ForeColor = System.Drawing.Color.Navy
         Me.Label30.Location = New System.Drawing.Point(240, 246)
         Me.Label30.Name = "Label30"
@@ -367,7 +367,7 @@ Partial Class Sistema
         'LB_OTROS_CARGOS
         '
         Me.LB_OTROS_CARGOS.AutoSize = True
-        Me.LB_OTROS_CARGOS.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.LB_OTROS_CARGOS.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Underline)
         Me.LB_OTROS_CARGOS.ForeColor = System.Drawing.Color.Navy
         Me.LB_OTROS_CARGOS.Location = New System.Drawing.Point(181, 248)
         Me.LB_OTROS_CARGOS.Name = "LB_OTROS_CARGOS"
@@ -378,7 +378,7 @@ Partial Class Sistema
         'Label32
         '
         Me.Label32.AutoSize = True
-        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label32.Location = New System.Drawing.Point(20, 248)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(139, 20)
@@ -388,7 +388,7 @@ Partial Class Sistema
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Underline)
         Me.Label29.ForeColor = System.Drawing.Color.Navy
         Me.Label29.Location = New System.Drawing.Point(240, 200)
         Me.Label29.Name = "Label29"
@@ -399,7 +399,7 @@ Partial Class Sistema
         'LB_TARIFA_BASE
         '
         Me.LB_TARIFA_BASE.AutoSize = True
-        Me.LB_TARIFA_BASE.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.LB_TARIFA_BASE.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Underline)
         Me.LB_TARIFA_BASE.ForeColor = System.Drawing.Color.Navy
         Me.LB_TARIFA_BASE.Location = New System.Drawing.Point(181, 204)
         Me.LB_TARIFA_BASE.Name = "LB_TARIFA_BASE"
@@ -410,7 +410,7 @@ Partial Class Sistema
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label28.Location = New System.Drawing.Point(20, 204)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(115, 20)
@@ -420,7 +420,7 @@ Partial Class Sistema
         'LB_CONSUMO
         '
         Me.LB_CONSUMO.AutoSize = True
-        Me.LB_CONSUMO.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.LB_CONSUMO.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline)
         Me.LB_CONSUMO.Location = New System.Drawing.Point(228, 158)
         Me.LB_CONSUMO.Name = "LB_CONSUMO"
         Me.LB_CONSUMO.Size = New System.Drawing.Size(18, 20)
@@ -430,7 +430,7 @@ Partial Class Sistema
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline)
         Me.Label24.Location = New System.Drawing.Point(181, 158)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(42, 20)
@@ -440,7 +440,7 @@ Partial Class Sistema
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label25.Location = New System.Drawing.Point(20, 158)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(91, 20)
@@ -450,7 +450,7 @@ Partial Class Sistema
         'LB_LECTURA_ACTUAL
         '
         Me.LB_LECTURA_ACTUAL.AutoSize = True
-        Me.LB_LECTURA_ACTUAL.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.LB_LECTURA_ACTUAL.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline)
         Me.LB_LECTURA_ACTUAL.Location = New System.Drawing.Point(181, 115)
         Me.LB_LECTURA_ACTUAL.Name = "LB_LECTURA_ACTUAL"
         Me.LB_LECTURA_ACTUAL.Size = New System.Drawing.Size(18, 20)
@@ -460,7 +460,7 @@ Partial Class Sistema
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label23.Location = New System.Drawing.Point(20, 115)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(151, 20)
@@ -470,7 +470,7 @@ Partial Class Sistema
         'LB_LECTURA_ANTERIOR
         '
         Me.LB_LECTURA_ANTERIOR.AutoSize = True
-        Me.LB_LECTURA_ANTERIOR.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.LB_LECTURA_ANTERIOR.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline)
         Me.LB_LECTURA_ANTERIOR.Location = New System.Drawing.Point(181, 69)
         Me.LB_LECTURA_ANTERIOR.Name = "LB_LECTURA_ANTERIOR"
         Me.LB_LECTURA_ANTERIOR.Size = New System.Drawing.Size(18, 20)
@@ -480,7 +480,7 @@ Partial Class Sistema
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label21.Location = New System.Drawing.Point(15, 69)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(171, 20)
@@ -490,7 +490,7 @@ Partial Class Sistema
         'LB_MES_COBRO
         '
         Me.LB_MES_COBRO.AutoSize = True
-        Me.LB_MES_COBRO.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.LB_MES_COBRO.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline)
         Me.LB_MES_COBRO.Location = New System.Drawing.Point(181, 21)
         Me.LB_MES_COBRO.Name = "LB_MES_COBRO"
         Me.LB_MES_COBRO.Size = New System.Drawing.Size(0, 20)
@@ -499,7 +499,7 @@ Partial Class Sistema
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label19.Location = New System.Drawing.Point(15, 21)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(142, 20)
@@ -533,7 +533,7 @@ Partial Class Sistema
         'LB_EMPREGO
         '
         Me.LB_EMPREGO.AutoSize = True
-        Me.LB_EMPREGO.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.LB_EMPREGO.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline)
         Me.LB_EMPREGO.Location = New System.Drawing.Point(97, 313)
         Me.LB_EMPREGO.Name = "LB_EMPREGO"
         Me.LB_EMPREGO.Size = New System.Drawing.Size(32, 20)
@@ -543,7 +543,7 @@ Partial Class Sistema
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label17.Location = New System.Drawing.Point(5, 313)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(91, 20)
@@ -553,7 +553,7 @@ Partial Class Sistema
         'LB_DOMIPRE
         '
         Me.LB_DOMIPRE.AutoSize = True
-        Me.LB_DOMIPRE.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.LB_DOMIPRE.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline)
         Me.LB_DOMIPRE.Location = New System.Drawing.Point(97, 276)
         Me.LB_DOMIPRE.Name = "LB_DOMIPRE"
         Me.LB_DOMIPRE.Size = New System.Drawing.Size(25, 20)
@@ -563,7 +563,7 @@ Partial Class Sistema
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label15.Location = New System.Drawing.Point(5, 276)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(84, 20)
@@ -573,7 +573,7 @@ Partial Class Sistema
         'LB_MEDIDOR
         '
         Me.LB_MEDIDOR.AutoSize = True
-        Me.LB_MEDIDOR.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.LB_MEDIDOR.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline)
         Me.LB_MEDIDOR.Location = New System.Drawing.Point(97, 228)
         Me.LB_MEDIDOR.Name = "LB_MEDIDOR"
         Me.LB_MEDIDOR.Size = New System.Drawing.Size(0, 20)
@@ -582,7 +582,7 @@ Partial Class Sistema
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label13.Location = New System.Drawing.Point(5, 228)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(86, 20)
@@ -592,7 +592,7 @@ Partial Class Sistema
         'LB_BARRIO
         '
         Me.LB_BARRIO.AutoSize = True
-        Me.LB_BARRIO.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point)
+        Me.LB_BARRIO.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Underline)
         Me.LB_BARRIO.Location = New System.Drawing.Point(97, 184)
         Me.LB_BARRIO.Name = "LB_BARRIO"
         Me.LB_BARRIO.Size = New System.Drawing.Size(0, 20)
@@ -601,7 +601,7 @@ Partial Class Sistema
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label10.Location = New System.Drawing.Point(5, 184)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(72, 20)
@@ -645,7 +645,7 @@ Partial Class Sistema
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label5.Location = New System.Drawing.Point(5, 145)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(26, 20)
@@ -655,7 +655,7 @@ Partial Class Sistema
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label4.Location = New System.Drawing.Point(5, 99)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(75, 20)
@@ -665,7 +665,7 @@ Partial Class Sistema
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label3.Location = New System.Drawing.Point(5, 52)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(79, 20)
@@ -703,7 +703,7 @@ Partial Class Sistema
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label1.Location = New System.Drawing.Point(9, 34)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
@@ -794,7 +794,7 @@ Partial Class Sistema
         'Label77
         '
         Me.Label77.AutoSize = True
-        Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.Label77.ForeColor = System.Drawing.Color.Black
         Me.Label77.Location = New System.Drawing.Point(788, 211)
         Me.Label77.Name = "Label77"
@@ -818,7 +818,7 @@ Partial Class Sistema
         'Label76
         '
         Me.Label76.AutoSize = True
-        Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.Label76.ForeColor = System.Drawing.Color.Black
         Me.Label76.Location = New System.Drawing.Point(673, 211)
         Me.Label76.Name = "Label76"
@@ -829,7 +829,7 @@ Partial Class Sistema
         'Label75
         '
         Me.Label75.BackColor = System.Drawing.Color.LightSlateGray
-        Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label75.ForeColor = System.Drawing.SystemColors.Control
         Me.Label75.Location = New System.Drawing.Point(673, 194)
         Me.Label75.Name = "Label75"
@@ -839,7 +839,7 @@ Partial Class Sistema
         'lb_cancelaDetalles
         '
         Me.lb_cancelaDetalles.AutoSize = True
-        Me.lb_cancelaDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.lb_cancelaDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
         Me.lb_cancelaDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_cancelaDetalles.Location = New System.Drawing.Point(788, 161)
         Me.lb_cancelaDetalles.Name = "lb_cancelaDetalles"
@@ -849,7 +849,7 @@ Partial Class Sistema
         'lb_tarifaDetalles
         '
         Me.lb_tarifaDetalles.AutoSize = True
-        Me.lb_tarifaDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.lb_tarifaDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
         Me.lb_tarifaDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_tarifaDetalles.Location = New System.Drawing.Point(788, 132)
         Me.lb_tarifaDetalles.Name = "lb_tarifaDetalles"
@@ -859,7 +859,7 @@ Partial Class Sistema
         'lb_pagadoDetalles
         '
         Me.lb_pagadoDetalles.AutoSize = True
-        Me.lb_pagadoDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.lb_pagadoDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
         Me.lb_pagadoDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_pagadoDetalles.Location = New System.Drawing.Point(788, 101)
         Me.lb_pagadoDetalles.Name = "lb_pagadoDetalles"
@@ -869,7 +869,7 @@ Partial Class Sistema
         'Label71
         '
         Me.Label71.AutoSize = True
-        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label71.ForeColor = System.Drawing.SystemColors.Control
         Me.Label71.Location = New System.Drawing.Point(673, 161)
         Me.Label71.Name = "Label71"
@@ -880,7 +880,7 @@ Partial Class Sistema
         'Label70
         '
         Me.Label70.AutoSize = True
-        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label70.ForeColor = System.Drawing.SystemColors.Control
         Me.Label70.Location = New System.Drawing.Point(673, 132)
         Me.Label70.Name = "Label70"
@@ -891,7 +891,7 @@ Partial Class Sistema
         'Label69
         '
         Me.Label69.AutoSize = True
-        Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label69.ForeColor = System.Drawing.SystemColors.Control
         Me.Label69.Location = New System.Drawing.Point(673, 102)
         Me.Label69.Name = "Label69"
@@ -912,7 +912,7 @@ Partial Class Sistema
         'lb_totalDetalles
         '
         Me.lb_totalDetalles.AutoSize = True
-        Me.lb_totalDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lb_totalDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold)
         Me.lb_totalDetalles.ForeColor = System.Drawing.Color.Chartreuse
         Me.lb_totalDetalles.Location = New System.Drawing.Point(142, 14)
         Me.lb_totalDetalles.Name = "lb_totalDetalles"
@@ -923,7 +923,7 @@ Partial Class Sistema
         'Label67
         '
         Me.Label67.AutoSize = True
-        Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold)
         Me.Label67.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label67.Location = New System.Drawing.Point(15, 14)
         Me.Label67.Name = "Label67"
@@ -934,7 +934,7 @@ Partial Class Sistema
         'lb_VenceDetalles
         '
         Me.lb_VenceDetalles.AutoSize = True
-        Me.lb_VenceDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.lb_VenceDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
         Me.lb_VenceDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_VenceDetalles.Location = New System.Drawing.Point(447, 102)
         Me.lb_VenceDetalles.Name = "lb_VenceDetalles"
@@ -944,7 +944,7 @@ Partial Class Sistema
         'lb_fechaDetalles
         '
         Me.lb_fechaDetalles.AutoSize = True
-        Me.lb_fechaDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lb_fechaDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.lb_fechaDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_fechaDetalles.Location = New System.Drawing.Point(447, 60)
         Me.lb_fechaDetalles.Name = "lb_fechaDetalles"
@@ -954,7 +954,7 @@ Partial Class Sistema
         'lb_celularDetalles
         '
         Me.lb_celularDetalles.AutoSize = True
-        Me.lb_celularDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lb_celularDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.lb_celularDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_celularDetalles.Location = New System.Drawing.Point(447, 18)
         Me.lb_celularDetalles.Name = "lb_celularDetalles"
@@ -972,7 +972,7 @@ Partial Class Sistema
         'lb_ivaDetalles
         '
         Me.lb_ivaDetalles.AutoSize = True
-        Me.lb_ivaDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.lb_ivaDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
         Me.lb_ivaDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_ivaDetalles.Location = New System.Drawing.Point(546, 394)
         Me.lb_ivaDetalles.Name = "lb_ivaDetalles"
@@ -983,7 +983,7 @@ Partial Class Sistema
         'lb_cargosAdmiDetalles
         '
         Me.lb_cargosAdmiDetalles.AutoSize = True
-        Me.lb_cargosAdmiDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.lb_cargosAdmiDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
         Me.lb_cargosAdmiDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_cargosAdmiDetalles.Location = New System.Drawing.Point(546, 365)
         Me.lb_cargosAdmiDetalles.Name = "lb_cargosAdmiDetalles"
@@ -994,7 +994,7 @@ Partial Class Sistema
         'lb_moraDetalles
         '
         Me.lb_moraDetalles.AutoSize = True
-        Me.lb_moraDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.lb_moraDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
         Me.lb_moraDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_moraDetalles.Location = New System.Drawing.Point(546, 339)
         Me.lb_moraDetalles.Name = "lb_moraDetalles"
@@ -1005,7 +1005,7 @@ Partial Class Sistema
         'lb_hidrantesDetalles
         '
         Me.lb_hidrantesDetalles.AutoSize = True
-        Me.lb_hidrantesDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.lb_hidrantesDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
         Me.lb_hidrantesDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_hidrantesDetalles.Location = New System.Drawing.Point(546, 313)
         Me.lb_hidrantesDetalles.Name = "lb_hidrantesDetalles"
@@ -1016,7 +1016,7 @@ Partial Class Sistema
         'lb_otrosCargosDetalles
         '
         Me.lb_otrosCargosDetalles.AutoSize = True
-        Me.lb_otrosCargosDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.lb_otrosCargosDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
         Me.lb_otrosCargosDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_otrosCargosDetalles.Location = New System.Drawing.Point(546, 285)
         Me.lb_otrosCargosDetalles.Name = "lb_otrosCargosDetalles"
@@ -1027,7 +1027,7 @@ Partial Class Sistema
         'lb_montoM3Detalles
         '
         Me.lb_montoM3Detalles.AutoSize = True
-        Me.lb_montoM3Detalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.lb_montoM3Detalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
         Me.lb_montoM3Detalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_montoM3Detalles.Location = New System.Drawing.Point(546, 259)
         Me.lb_montoM3Detalles.Name = "lb_montoM3Detalles"
@@ -1038,7 +1038,7 @@ Partial Class Sistema
         'lb_tarifaBaseDetalles
         '
         Me.lb_tarifaBaseDetalles.AutoSize = True
-        Me.lb_tarifaBaseDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.lb_tarifaBaseDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle))
         Me.lb_tarifaBaseDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_tarifaBaseDetalles.Location = New System.Drawing.Point(546, 232)
         Me.lb_tarifaBaseDetalles.Name = "lb_tarifaBaseDetalles"
@@ -1049,7 +1049,7 @@ Partial Class Sistema
         'Label55
         '
         Me.Label55.AutoSize = True
-        Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label55.ForeColor = System.Drawing.SystemColors.Control
         Me.Label55.Location = New System.Drawing.Point(342, 395)
         Me.Label55.Name = "Label55"
@@ -1060,7 +1060,7 @@ Partial Class Sistema
         'Label54
         '
         Me.Label54.AutoSize = True
-        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label54.ForeColor = System.Drawing.SystemColors.Control
         Me.Label54.Location = New System.Drawing.Point(342, 366)
         Me.Label54.Name = "Label54"
@@ -1071,7 +1071,7 @@ Partial Class Sistema
         'Label52
         '
         Me.Label52.AutoSize = True
-        Me.Label52.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label52.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label52.ForeColor = System.Drawing.SystemColors.Control
         Me.Label52.Location = New System.Drawing.Point(342, 340)
         Me.Label52.Name = "Label52"
@@ -1082,7 +1082,7 @@ Partial Class Sistema
         'Label51
         '
         Me.Label51.AutoSize = True
-        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label51.ForeColor = System.Drawing.SystemColors.Control
         Me.Label51.Location = New System.Drawing.Point(342, 313)
         Me.Label51.Name = "Label51"
@@ -1093,7 +1093,7 @@ Partial Class Sistema
         'Label50
         '
         Me.Label50.AutoSize = True
-        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label50.ForeColor = System.Drawing.SystemColors.Control
         Me.Label50.Location = New System.Drawing.Point(342, 286)
         Me.Label50.Name = "Label50"
@@ -1104,7 +1104,7 @@ Partial Class Sistema
         'Label49
         '
         Me.Label49.AutoSize = True
-        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label49.ForeColor = System.Drawing.SystemColors.Control
         Me.Label49.Location = New System.Drawing.Point(342, 260)
         Me.Label49.Name = "Label49"
@@ -1115,7 +1115,7 @@ Partial Class Sistema
         'Label48
         '
         Me.Label48.AutoSize = True
-        Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label48.ForeColor = System.Drawing.SystemColors.Control
         Me.Label48.Location = New System.Drawing.Point(342, 233)
         Me.Label48.Name = "Label48"
@@ -1126,7 +1126,7 @@ Partial Class Sistema
         'Label47
         '
         Me.Label47.BackColor = System.Drawing.Color.LightSlateGray
-        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label47.ForeColor = System.Drawing.SystemColors.Control
         Me.Label47.Location = New System.Drawing.Point(339, 211)
         Me.Label47.Name = "Label47"
@@ -1136,7 +1136,7 @@ Partial Class Sistema
         'lb_mesCobroDetalles
         '
         Me.lb_mesCobroDetalles.AutoSize = True
-        Me.lb_mesCobroDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lb_mesCobroDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.lb_mesCobroDetalles.ForeColor = System.Drawing.Color.Black
         Me.lb_mesCobroDetalles.Location = New System.Drawing.Point(519, 194)
         Me.lb_mesCobroDetalles.Name = "lb_mesCobroDetalles"
@@ -1146,7 +1146,7 @@ Partial Class Sistema
         '
         'lb_m3Detalles
         '
-        Me.lb_m3Detalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lb_m3Detalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.lb_m3Detalles.ForeColor = System.Drawing.Color.Black
         Me.lb_m3Detalles.Location = New System.Drawing.Point(477, 194)
         Me.lb_m3Detalles.Name = "lb_m3Detalles"
@@ -1157,7 +1157,7 @@ Partial Class Sistema
         '
         'lb_actualDetalles
         '
-        Me.lb_actualDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lb_actualDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.lb_actualDetalles.ForeColor = System.Drawing.Color.Black
         Me.lb_actualDetalles.Location = New System.Drawing.Point(422, 194)
         Me.lb_actualDetalles.Name = "lb_actualDetalles"
@@ -1168,7 +1168,7 @@ Partial Class Sistema
         '
         'lb_anteriorDetalles
         '
-        Me.lb_anteriorDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lb_anteriorDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.lb_anteriorDetalles.ForeColor = System.Drawing.Color.Black
         Me.lb_anteriorDetalles.Location = New System.Drawing.Point(339, 194)
         Me.lb_anteriorDetalles.Name = "lb_anteriorDetalles"
@@ -1180,7 +1180,7 @@ Partial Class Sistema
         'Label42
         '
         Me.Label42.AutoSize = True
-        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label42.ForeColor = System.Drawing.SystemColors.Control
         Me.Label42.Location = New System.Drawing.Point(519, 174)
         Me.Label42.Name = "Label42"
@@ -1191,7 +1191,7 @@ Partial Class Sistema
         'Label41
         '
         Me.Label41.AutoSize = True
-        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label41.ForeColor = System.Drawing.SystemColors.Control
         Me.Label41.Location = New System.Drawing.Point(486, 174)
         Me.Label41.Name = "Label41"
@@ -1202,7 +1202,7 @@ Partial Class Sistema
         'Label40
         '
         Me.Label40.AutoSize = True
-        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label40.ForeColor = System.Drawing.SystemColors.Control
         Me.Label40.Location = New System.Drawing.Point(422, 174)
         Me.Label40.Name = "Label40"
@@ -1213,7 +1213,7 @@ Partial Class Sistema
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.Label39.ForeColor = System.Drawing.SystemColors.Control
         Me.Label39.Location = New System.Drawing.Point(339, 174)
         Me.Label39.Name = "Label39"
@@ -1224,7 +1224,7 @@ Partial Class Sistema
         'Label38
         '
         Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.Label38.ForeColor = System.Drawing.Color.Black
         Me.Label38.Location = New System.Drawing.Point(339, 148)
         Me.Label38.Name = "Label38"
@@ -1275,7 +1275,7 @@ Partial Class Sistema
         Me.lb_direccionDetalles.BackColor = System.Drawing.Color.Turquoise
         Me.lb_direccionDetalles.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lb_direccionDetalles.Enabled = False
-        Me.lb_direccionDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lb_direccionDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
         Me.lb_direccionDetalles.Location = New System.Drawing.Point(19, 255)
         Me.lb_direccionDetalles.Multiline = True
         Me.lb_direccionDetalles.Name = "lb_direccionDetalles"
@@ -1296,7 +1296,7 @@ Partial Class Sistema
         'lb_medidorDetalles
         '
         Me.lb_medidorDetalles.AutoSize = True
-        Me.lb_medidorDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lb_medidorDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.lb_medidorDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_medidorDetalles.Location = New System.Drawing.Point(129, 191)
         Me.lb_medidorDetalles.Name = "lb_medidorDetalles"
@@ -1306,7 +1306,7 @@ Partial Class Sistema
         'lb_barrioDetalles
         '
         Me.lb_barrioDetalles.AutoSize = True
-        Me.lb_barrioDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lb_barrioDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.lb_barrioDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_barrioDetalles.Location = New System.Drawing.Point(129, 148)
         Me.lb_barrioDetalles.Name = "lb_barrioDetalles"
@@ -1316,7 +1316,7 @@ Partial Class Sistema
         'lb_cedulaDetalle
         '
         Me.lb_cedulaDetalle.AutoSize = True
-        Me.lb_cedulaDetalle.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lb_cedulaDetalle.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.lb_cedulaDetalle.ForeColor = System.Drawing.Color.Aqua
         Me.lb_cedulaDetalle.Location = New System.Drawing.Point(129, 102)
         Me.lb_cedulaDetalle.Name = "lb_cedulaDetalle"
@@ -1326,7 +1326,7 @@ Partial Class Sistema
         'lb_apellidosDetalles
         '
         Me.lb_apellidosDetalles.AutoSize = True
-        Me.lb_apellidosDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lb_apellidosDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.lb_apellidosDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_apellidosDetalles.Location = New System.Drawing.Point(129, 60)
         Me.lb_apellidosDetalles.Name = "lb_apellidosDetalles"
@@ -1336,7 +1336,7 @@ Partial Class Sistema
         'lb_nombreDetalles
         '
         Me.lb_nombreDetalles.AutoSize = True
-        Me.lb_nombreDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lb_nombreDetalles.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.lb_nombreDetalles.ForeColor = System.Drawing.Color.Aqua
         Me.lb_nombreDetalles.Location = New System.Drawing.Point(129, 18)
         Me.lb_nombreDetalles.Name = "lb_nombreDetalles"
@@ -1400,7 +1400,7 @@ Partial Class Sistema
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(66, Byte), Integer), CType(CType(82, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1114, 529)
         Me.Controls.Add(Me.TabControl1)
-        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Sistema"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

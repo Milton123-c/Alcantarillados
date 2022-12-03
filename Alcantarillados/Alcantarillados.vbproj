@@ -14,6 +14,21 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -48,6 +63,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Ci.ServerMap, Version=0.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ci.ServerMap.0.0.1\lib\netstandard1.3\Ci.ServerMap.dll</HintPath>
+    </Reference>
     <Reference Include="CrystalDecisions.ReportAppServer.CommLayer, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
       <HintPath>..\packages\CrystalReports.ReportAppServer.CommLayer.13.0.4001\lib\net40\CrystalDecisions.ReportAppServer.CommLayer.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
@@ -103,6 +121,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -156,6 +175,7 @@
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CapaLogica\Historia.vb" />
     <Compile Include="Lecturas.Designer.vb">
       <DependentUpon>Lecturas.vb</DependentUpon>
     </Compile>
@@ -228,6 +248,9 @@
     <EmbeddedResource Include="Reportes.resx">
       <DependentUpon>Reportes.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sistema.resx">
+      <DependentUpon>Sistema.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Usuario.resx">
       <DependentUpon>Usuario.vb</DependentUpon>
     </EmbeddedResource>
@@ -239,6 +262,8 @@
     </None>
     <None Include="My Project\DataSources\ActualizarAdmin.datasource" />
     <None Include="My Project\DataSources\Administrador.datasource" />
+    <None Include="My Project\DataSources\Alcantarillados.My.MyApplication.datasource" />
+    <None Include="My Project\DataSources\Alcantarillados.My.MySettings.datasource" />
     <None Include="My Project\DataSources\CDcalcularSistema.datasource" />
     <None Include="My Project\DataSources\CDsesion.datasource" />
     <None Include="My Project\DataSources\CDSistema.datasource" />
@@ -252,9 +277,12 @@
     <None Include="My Project\DataSources\DatosAdministrador.datasource" />
     <None Include="My Project\DataSources\Factura.datasource" />
     <None Include="My Project\DataSources\Form1.datasource" />
+    <None Include="My Project\DataSources\Historia.datasource" />
     <None Include="My Project\DataSources\LCactualizarAdmin.datasource" />
     <None Include="My Project\DataSources\LCUser.datasource" />
     <None Include="My Project\DataSources\Lecturas.datasource" />
+    <None Include="My Project\DataSources\Registrar.datasource" />
+    <None Include="My Project\DataSources\Reportes.datasource" />
     <None Include="My Project\DataSources\Sistema.datasource" />
     <None Include="My Project\DataSources\Usuario.datasource" />
     <None Include="My Project\Settings.settings">
@@ -290,6 +318,18 @@
     <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
